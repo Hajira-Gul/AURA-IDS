@@ -14,3 +14,12 @@ mlp:
   lr: 0.001
   epochs: 20
   batch_size: 512
+raw_dir: data/raw
+processed_path: data/processed/windows.parquet
+train_windows: 7
+val_windows: 2
+drop_destination_port: true
+prep_seed: 0
+features_path: data/processed/features.parquet
+skew_threshold: 3
+clip_value: 10
